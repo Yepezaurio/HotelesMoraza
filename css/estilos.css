@@ -1,0 +1,51 @@
+@import url(scrollitems.css);
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+.Main-nav{
+    
+    background: black;
+    display: flex;
+    height: 50px;
+    justify-content:center;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+.menu{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+.menu__item{
+    margin: 0 15px;
+    padding: 15px;
+    
+}
+.menu__link{
+ 
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.menu-bar{
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.menu_itemsesion{
+    float: right;
+    padding: 15px;
+    margin-left: inherit;     
+}
+
+nav ul li:hover {background:#01A9DB;  }
